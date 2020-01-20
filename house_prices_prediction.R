@@ -375,8 +375,6 @@ head(varImp(xgb_model)$importance, 30) %>%
 ### XGB rmse
 rmse_fun(final_houses_train_df$SalePrice_log, predict(xgb_model))
 
-xgb_model$
-
 ### lambdas for ridge and lasso
 lambdas_grid <- 10^seq(10, -2, length = 100)
 
