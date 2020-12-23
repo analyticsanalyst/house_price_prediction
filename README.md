@@ -1,5 +1,5 @@
 ### Project overview 
-* [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview/description) provides open datasets that can be used for practicing data science techniques. This post contains modeling / R notes from the Ames home sale price prediction project. 
+* [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview/description) provides open datasets that can be used for practicing data science techniques. This readme contains modeling / R notes from the Ames home sale price prediction project. 
 * Goal = predict the final price of a home. The dataset used for this project contains 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. The [Ames Housing dataset](http://www.amstat.org/publications/jse/v19n3/decock.pdf) was compiled by Dean De Cock.  
 * [R code on Github](https://github.com/bm-datalab/house_price_prediction). 
 
