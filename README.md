@@ -21,7 +21,7 @@
 * 4 outlier observations were excluded from the training dataset. Compared to decision tree models, in general, linear regression models are more sensitive to outliers. Both linear regression models and decision tree models were used in the final ensemble. 
 * I learned how to use the package Vtreat which was handy for working with the XGB model. 
 
-##### **4.** **XGB (****Extreme Gradient Boosting)** 
+##### **4\. XGB (Extreme Gradient Boosting)** 
 * XGB is a popular model for data science competitions. 
 * XGB is a faster form of standard gbm models. 
 * Random forests models grow many trees in silos which are then aggregated together for a final prediction. Gbm models are different in that many weak trees are built to learn from each other vs operate in silos. For example, tree 1 creates predictions and an error baseline is established. Tree 2 weights the observations from tree 1 that had largest error. Tree 2 then tries to minimize error for those observations that had high error from tree 1\. This process is then completed for X specified rounds. 
@@ -40,7 +40,7 @@
 * Calculating RMSE using base R: 1) Derive residuals 2) Square the residuals 3) Find the average of the residuals. 4) Take the square root of the result. 
 * sqrt(mean((predicted - actual)^2)) 
 
-##### **Areas for further improvement** 
+### **Areas for further improvement** 
 * More advanced methods could be used to fill in missing data in the train and test dataset. 
 * More work could be done on deriving new features and model parameter tuning. 
 * I scored many prediction submissions on the Kaggle test set. This approach is not recommended as it’s easy to overfit to the public leaderboard. Going forward, I’ll plan to use a validation dataset or implement cross-validation to assess performance outside the training data. 
